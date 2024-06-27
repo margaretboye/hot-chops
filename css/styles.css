@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -5,7 +10,8 @@ body {
   font-style: normal;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
+  overflow-x: hidden;
 }
 
 .poppins-bold {
@@ -74,7 +80,7 @@ body {
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 #hero-overlay {
@@ -105,7 +111,8 @@ header {
   display: flex;
   justify-content: center;
   padding: 120px 105px;
-  background-color: rgba(236, 236, 236, 0.644)
+  background-color: rgba(236, 236, 236, 0.644);
+  width: 100vw;
 }
 
 .sub-header {
@@ -167,11 +174,12 @@ header {
 #discover-sec {
   background-image: url(../assets//images/chinese-lanterns.jpg);
   height: 60%;
-  width: 100%;
+  width: 100vw;
   background-repeat: no-repeat;
   background-size: 1640px 800px;
   background-attachment: fixed;
   background-position: cover;
+  margin-right: 0;
 
 }
 
@@ -198,11 +206,28 @@ header {
 }
 
 #menu-sec {
-  padding: 77px;
-  display: flex;
-  /* align-items: center; */
+  padding: 77px 0;
+  /* margin: auto; */
+  /* display: flex; */
+  
+
+}
+.menu-sec-sub{
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%;
 }
 
+.menu-sec-sub1{
+  display: flex;
+  flex-direction: row;
+  
+  margin-right: -15px;
+  margin-left: -15px;
+}
 
 .menu-img {
   /* display: flex; */
@@ -217,10 +242,10 @@ header {
   padding-top: 35px;
 } */
 
-#hm-style1 ,#hm-style2 {
+.hm-style {
   font-size: 22px;
-  color: #666666;
-  /* font-weight: bolder; */
+  color: #333333 !important;
+  font-weight: 500;
   letter-spacing: 3px;
   text-decoration: none;
   
@@ -251,34 +276,38 @@ header {
   color: #D61C22;
 }
 
-#hm-style1:hover{
+.hm-style:hover{
   color: #D61C22;
 }
 
-#hm-style2:hover{
-  color: #D61C22;
-}
+
 
 
 #menu-cont2 span:hover{
   color: red;
 }
 
-#del-food{
-  color: #666666;
+#del-food a{
+ text-decoration: none;
+  /* color: #666666;
   font-size: 22px;
-  letter-spacing: 3px;
-  text-decoration: none;
+  letter-spacing: 3px; */
+ 
 }
 
-#del-food:hover{
+#del-food{
+  margin-top: 35px;
+  margin-left: 30px;
+}
+
+#del-food a:hover{
   color: #D61C22;
 }
 
-/* .menu-div p {
+.menu-div p {
   font-size: 15px; 
-  padding-left: 60px;
-} */
+  /* padding-left: 60px; */
+}
 
 .grid-container {
   display: grid;
@@ -311,32 +340,35 @@ header {
   height: 250px;
 }
 
-/* .menu-div{
-  padding: 30px 15px 0px;
-  width: 30%;
-  margin: 10px;
-  overflow: hidden;
-} */
-
-.menu-div {
+ .menu-div2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
+} 
 
 .menu-cont {
-  padding: 35px 0 0 0;
+  margin-top: 35px;
 }
 
 #menu-cont2{
-  padding-left: 30px;
   padding-top: 35px;
 }
 
+.menu-cont-sub{
+  margin: auto;
+}
+
+.menu-cont-sub a{
+  color: #666666;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
 .menu-para{
-margin-bottom: 20px;
+margin: 13px 0 20px 0;
 line-height: 1.7;
 font-size: 15px;
+color: #666666;
 }
 
 #our-menu {
@@ -383,6 +415,7 @@ font-size: 15px;
   display: flex;
   padding: 120px;
   justify-content: space-between;
+  width: 100vw;
 }
 
 #reservation img {
@@ -439,15 +472,16 @@ color: #222222;
   align-content: center;
 }
 
-/* #section1{
+#footer{
+  width: 100vw;
   display: flex;
-  flex-direction: column;
-}  */
+  /* flex-direction: row; */
+  justify-content: center; 
+}
 
-/* #booking{
-  word-spacing: 6px;
- 
-}*/
+.footer-lists{
+  list-style-type: none;
+}
 
 
 

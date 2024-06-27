@@ -61,38 +61,51 @@
         </div>
     </section>
     <section id="menu-sec">
-        <!-- for this sedtion i had to create different ids so that i could effect some changes. find out how i can group them -->
-        <div class="menu-div">
-            <img class="menu-img" src="./assets/images/rom-img.jpg" alt="resto-img">
-            <div class="menu-cont">
-                <a href="">
-                    <h class="poppins-bold" id="hm-style1">ROMANTIC RESTAURANT</h>
-                </a>
-                <p class="menu-para">Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.</p>
-                <a href=""><span>LEARN MORE</span></a>
-                <a href=""><span><i class="fa-solid fa-arrow-right"></i></span></a>
-            </div>
-        </div>
-        <div class="menu-div">
-            <img class="menu-img" src="./assets/images/our-menu.jpg" alt="food-img">
-            <div id="menu-cont2">
-                <a href="">
-                    <h class="poppins-bold" id="del-food">DELICIOUS FOOD</h>
-                </a>
-                <p class="menu-para">Aliquam eget aliquam magna, quis posuere risus ac justo ipsum nibh urna</p>
-                <a href=""><span>LEARN MORE</span><a>
-                        <a href=""><span><i class="fa-solid fa-arrow-right"></i></span><a>
-            </div>
-        </div>
-        <div>
-            <img class="menu-img" src="./assets/images/wine1.jpg" alt="wine-img">
-            <div class="menu-cont">
-                <a href="">
-                    <h class="poppins-bold" id="hm-style2">RED WINES YOU LOVE</h>
-                </a>
-                <p class="menu-para">Sed ornare ligula eget tortor tempor, quis porta tellus dictum.</p>
-                <a href=""><span>LEARN MORE</span></a>
-                <a href=""><span><i class="fa-solid fa-arrow-right"></i></span></a>
+        <div class="menu-sec-sub">
+            <div class="menu-sec-sub1">
+                <!-- for this sedtion i had to create different ids so that i could effect some changes. find out how i can group them -->
+                <div class="menu-div">
+                    <img class="menu-img" src="./assets/images/rom-img.jpg" alt="resto-img">
+                    <div class="menu-cont">
+                        <a href="">
+                            <h class="poppins-bold hm-style">ROMANTIC RESTAURANT</h>
+                        </a>
+                        <div class="menu-cont-sub">
+                            <p class="menu-para">Phasellus lorem enim, luctus ut velit eget, con-vallis egestas eros.
+                            </p>
+                            <a href=""><span>LEARN MORE</span></a>
+                            <a href=""><span><i class="fa-solid fa-arrow-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="menu-div menu-div2">
+                    <img class="menu-img" src="./assets/images/our-menu.jpg" alt="food-img">
+                    <div id="del-food">
+                        <a href="">
+                            <h class="poppins-bold hm-style">DELICIOUS FOOD</h>
+                        </a>
+                        <div class="menu-cont-sub">
+                            <p class="menu-para">Aliquam eget aliquam magna, quis posuere risus ac justo ipsum nibh
+                                urna
+                            </p>
+                            <a href=""><span>LEARN MORE</span><a>
+                                    <a href=""><span><i class="fa-solid fa-arrow-right"></i></span><a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <img class="menu-img" src="./assets/images/wine1.jpg" alt="wine-img">
+                    <div class="menu-cont">
+                        <a href="">
+                            <h class="poppins-bold hm-style">RED WINES YOU LOVE</h>
+                        </a>
+                        <div class="menu-cont-sub">
+                            <p class="menu-para">Sed ornare ligula eget tortor tempor, quis porta tellus dictum.</p>
+                            <a href=""><span>LEARN MORE</span></a>
+                            <a href=""><span><i class="fa-solid fa-arrow-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -171,15 +184,15 @@
                     </span>
                 </div>
             </form>
-           <div id="table-button">
-            <button id="book-table">BOOK TABLE</button>
-           </div>
+            <div id="table-button">
+                <button id="book-table">BOOK TABLE</button>
+            </div>
         </div>
         <div>
             <img id="reservation img" src="./assets/images/happy-hour.jpg" alt="reservation">
         </div>
     </section>
-    <section>
+    <section id="swiper-sec">
         <div class="swiper mySwiper">
             <div id="fixed-text">
                 <span class="courgette-regular" id="fixed-text1">Customers Say</span>
@@ -238,6 +251,47 @@
             <div class="swiper-button-next"></div>
             <div class="swiper-button-prev"></div>
             <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <section id="footer">
+        <div>
+            <h4>CONTACT US</h4>
+            <ul class="footer-lists">
+                <li><i class="fa-solid fa-location-dot"></i> 8th floor, 379 Hudson St, New York, NY 10018</li>
+                <li><i class="fa-solid fa-phone"></i>(+1) 96 716 6879</li>
+                <li><i class="fa-solid fa-envelope"></i> contact@site.com</li>
+            </ul>
+            <h4>OPENING TIMES</h4>
+            <ul class="footer-lists">
+                <li>OPENING TIMES</li>
+                <li>Every Day</li>
+            </ul>
+        </div>
+        <div>
+            <h4>LATEST TWITTER</h4>
+            <span><i class="fa-brands fa-twitter"><a href="">@colorlib</a></i></span>
+            <p>Activello is a good option. It has a slider built into that displays the featured image in the slider.
+            </p>
+            <a href=""><span>https://buff.ly/2zaSfAQ</span></a>
+            <span>21 Dec 2017</span>
+            <h4>LATEST TWITTER</h4>
+            <span><i class="fa-brands fa-twitter"><a href="">@colorlib</a></i></span>
+            <p>Activello is a good option. It has a slider built into that displays <a
+                    href="">https://buff.ly/2zaSfAQ</a></p>
+            <span>21 Dec 2017</span>
+        </div>
+        <div>
+            <h4>GALLERY</h4>
+            <div> <img class="footer-img" src="./assets/images/dessert-img.jpeg" alt="">
+                <img class="footer-img" src="./assets/images/lunch-img.jpeg" alt="">
+                <img src="./assets/images/wine1.jpg" alt="">
+                <img src="./assets/images/happy-hourimg.webp" alt="">
+                <img src="./assets/images/drinks-img.jpeg" alt="">
+                <img src="./assets/images/dinnerimg.webp" alt="">
+                <img src="./assets/images/dessert-img.jpeg" alt="">
+                <img src="./assets/images/newbg.jpg" alt="">
+                <img src="./assets/images/wine3.webp" alt="">
+            </div>
         </div>
     </section>
 
