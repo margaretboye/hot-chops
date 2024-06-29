@@ -1,8 +1,9 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -161,15 +162,16 @@ header {
   margin: 0;
   font-size: 12px;
   text-transform: uppercase;
-  letter-spacing: 1px; 
+  letter-spacing: 1px;
 }
 
-#our-story{
+#our-story {
   text-decoration: none;
 }
 
- #about-link a:hover { 
-  color:#D61C22; }
+#about-link a:hover {
+  color: #D61C22;
+}
 
 #discover-sec {
   background-image: url(../assets//images/chinese-lanterns.jpg);
@@ -209,10 +211,11 @@ header {
   padding: 77px 0;
   /* margin: auto; */
   /* display: flex; */
-  
+
 
 }
-.menu-sec-sub{
+
+.menu-sec-sub {
   max-width: 1200px;
   margin-right: auto;
   margin-left: auto;
@@ -221,10 +224,10 @@ header {
   width: 100%;
 }
 
-.menu-sec-sub1{
+.menu-sec-sub1 {
   display: flex;
   flex-direction: row;
-  
+
   margin-right: -15px;
   margin-left: -15px;
 }
@@ -248,64 +251,65 @@ header {
   font-weight: 500;
   letter-spacing: 3px;
   text-decoration: none;
-  
+
 }
 
-#menu-cont2 a{
+#menu-cont2 a {
   text-decoration: none;
 }
 
-.menu-cont a{
+.menu-cont a {
   text-decoration: none;
 }
 
-.menu-cont span{
+.menu-cont span {
   color: #222222;
   font-size: 12px;
 }
 
-#menu-cont2 span{
+#menu-cont2 span {
   color: #222222;
   font-size: 12px;
 }
+
 /* .:hover{
  color: #D61C22; 
 } */
 
-.menu-cont span:hover{
+.menu-cont span:hover {
   color: #D61C22;
 }
 
-.hm-style:hover{
+.hm-style:hover {
   color: #D61C22;
 }
 
 
 
 
-#menu-cont2 span:hover{
+#menu-cont2 span:hover {
   color: red;
 }
 
-#del-food a{
- text-decoration: none;
+#del-food a {
+  text-decoration: none;
   /* color: #666666;
   font-size: 22px;
   letter-spacing: 3px; */
- 
+
 }
 
-#del-food{
+#del-food {
   margin-top: 35px;
   margin-left: 30px;
 }
 
-#del-food a:hover{
+#del-food a:hover {
   color: #D61C22;
 }
 
 .menu-div p {
-  font-size: 15px; 
+  font-size: 15px;
   /* padding-left: 60px; */
 }
 
@@ -340,35 +344,35 @@ header {
   height: 250px;
 }
 
- .menu-div2 {
+.menu-div2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-} 
+}
 
 .menu-cont {
   margin-top: 35px;
 }
 
-#menu-cont2{
+#menu-cont2 {
   padding-top: 35px;
 }
 
-.menu-cont-sub{
+.menu-cont-sub {
   margin: auto;
 }
 
-.menu-cont-sub a{
+.menu-cont-sub a {
   color: #666666;
   font-size: 12px;
   letter-spacing: 1px;
 }
 
-.menu-para{
-margin: 13px 0 20px 0;
-line-height: 1.7;
-font-size: 15px;
-color: #666666;
+.menu-para {
+  margin: 13px 0 20px 0;
+  line-height: 1.7;
+  font-size: 15px;
+  color: #666666;
 }
 
 #our-menu {
@@ -424,71 +428,108 @@ color: #666666;
   border-radius: 10px;
 }
 
-.res-sub span:nth-child(1){
+.res-sub span:nth-child(1) {
   color: #D61C22;
   font-size: 30px;
 }
 
-.res-sub span:nth-child(2){
-font-size: 50px;
-letter-spacing: 6px;
-color: #222222;
-} 
-
-.res-sub{
-  display: flex;
-  flex-direction: column;
-  align-items: center ;
+.res-sub span:nth-child(2) {
+  font-size: 50px;
+  letter-spacing: 6px;
+  color: #222222;
 }
 
-#input-grid{
+.res-sub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#input-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
 }
 
-#input-grid input{
+#input-grid input {
   width: 250px;
   height: 46px;
   border-radius: 10px;
   background-color: #ffffff;
   border: 2px solid #d9d9d9;
-} 
+}
 
-.form-item{
+.form-item {
   display: flex;
   flex-direction: column;
   row-gap: 10px;
 }
 
-.form-item label{
+.form-item label {
   font-size: 15px;
   color: #555555;
 }
 
-#table-button{
+#table-button {
   display: flex;
   justify-content: center;
   align-content: center;
 }
 
-#footer{
+#footer {
   width: 100vw;
   display: flex;
   /* flex-direction: row; */
-  justify-content: center; 
+  justify-content: center;
 }
 
-.footer-lists{
+.footer-lists {
   list-style-type: none;
 }
 
+.latest-news {
+  padding: 115px 0 123px 0;
+}
 
+.news {
+  color: #D61C22;
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 3px;
+}
 
+.blog-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 44px;
+}
 
+.blog-h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 1.2;
+  color: #222222;
+  letter-spacing: 10px;
+  word-spacing: 8px;
+}
 
+.img-div{
+  position: relative;
+}
 
+.img-text{
+  position: absolute;
+  bottom:11;
+  left: 14;
+  padding: 3px 15px;
+  color: white;
+  border-radius: 4px;
+  font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
-
-
-
+.img-text p{
+  /* color: #ffffff; */
+  font-size: 12px;
+}
