@@ -332,16 +332,58 @@ header {
   grid-row-start: 1;
   grid-row-end: 3;
   height: 520px;
+  position: relative;
+}
+
+.absolute-text1{
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  background-color: white;
+  opacity: 0.9;
+  padding: 6px 10px;
+  border-radius: 3px;
+  font-size: 22px;
+  color: #333333;
+}
+
+.absolute-text2{
+  text-decoration: none;
+  position: absolute;
+  left: 40%;
+  top: 40%;
+  background-color: white;
+  opacity: 0.9;
+  padding: 6px 10px;
+  border-radius: 3px;
+  font-size: 22px;
+  color: #333333;
+}
+
+.absolute-text3{
+  text-decoration: none;
+  position: absolute;
+  
+  background-color: white;
+  opacity: 0.9;
+  padding: 6px 10px;
+  border-radius: 3px;
+  font-size: 22px;
+  color: #333333;
+  
 }
 
 .group2 {
   grid-column-start: 1;
   grid-column-end: 3;
   height: 250px;
+  position: relative;
 }
 
 .group3 {
   height: 250px;
+  position: relative;
 }
 
 .menu-div2 {
